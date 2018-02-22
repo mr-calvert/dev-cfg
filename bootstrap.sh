@@ -10,7 +10,7 @@ rm master
 
 mkdir repo
 mv dev-cfg-master/* repo/
-rmdir dev-cfg
+rmdir dev-cfg-master
 
 rm -f current
 ln -s $dt current
