@@ -55,6 +55,11 @@ brew cask install spotify
 brew cask install gitter
 brew cask install google-chrome
 brew cask install docker
+brew cask install dropbox
+brew cask install 1password
+brew cask install 1password-cli
+brew cask install google-backup-and-sync
+
 
 brew install mas
 
@@ -78,6 +83,10 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0
 
+# put Dock in the lower left corner
+defaults write com.apple.Dock orientation -string left
+defaults write com.apple.Dock pinning -string start
+
 # write screenshots to ~/Desktop in PNG format
 defaults write com.apple.screencapture location -string "$HOME/Desktop"
 defaults write com.apple.screencapture type -string "png"
@@ -93,3 +102,5 @@ defaults write com.apple.finder EmptyTrashSecurely -bool true
 
 # stop hiding the ~/Library folder
 chflags nohidden ~/Library
+
+echo "Restart the machine after all this!"
