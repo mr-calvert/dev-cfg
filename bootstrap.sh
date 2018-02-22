@@ -13,5 +13,4 @@ mv dev-cfg-master/* repo/
 rmdir dev-cfg
 
 rm -f current
-
 ln -s $dt current
