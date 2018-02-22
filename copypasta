@@ -1,0 +1,1 @@
+mkdir -p ~/.dev-cfg; cd ~/.dev-cfg; curl https://raw.githubusercontent.com/mr-calvert/dev-cfg/master/bootstrap.sh -O; source bootstrap.sh
