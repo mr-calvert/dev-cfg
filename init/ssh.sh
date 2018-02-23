@@ -8,7 +8,7 @@ cp current/repo/dots/ssh/config ~/.ssh
 
 if [ ! -f ~/.ssh/id_rsa ]; then
   echo "Generating ssh identity id_rsa"
-  ssh-keygen -t rsa -b 4096 -C "scalvert@splunk.com" -N ""
+  ssh-keygen -t rsa -b 4096 -C "scalvert@splunk.com" -N "" -f id_rsa
   
   echo "Public key for pasting"
   echo "=========="
