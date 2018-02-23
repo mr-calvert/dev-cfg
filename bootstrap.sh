@@ -26,7 +26,7 @@ mkdir current/runlogs
 #   ~/.dev-cfg/init [subsystem to init]
 rm -f init
 chmod a+x current/init/init.sh
-ln -s current/init/init.sh init.sh
+ln -s current/repo/init/init.sh init.sh
 chmod a+x init.sh
 
 # make sure to leave ~/.dev-cfg/bootstrap.sh executable
