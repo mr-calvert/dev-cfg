@@ -25,7 +25,7 @@ mkdir current/runlogs
 # this enables the usage:
 #   ~/.dev-cfg/init [subsystem to init]
 rm -f init
-chmod a+x current/init/init.sh
+chmod a+x current/repo/init/init.sh
 ln -s current/repo/init/init.sh init.sh
 chmod a+x init.sh
 
