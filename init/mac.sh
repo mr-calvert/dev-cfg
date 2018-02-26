@@ -38,7 +38,7 @@ brew install nano
 
 brew install file-formula
 brew install git
-brew install openssh
+# disable -- brew version requires extra setup to get key agent working: brew install openssh
 brew install perl
 brew install python
 brew install rsync
