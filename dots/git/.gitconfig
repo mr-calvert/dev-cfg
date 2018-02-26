@@ -1,0 +1,4 @@
+[user]
+	email = scalvert@splunk.com
+[alias]
+	personalprofile = config user.email \"scalvert@onepost.net\"
