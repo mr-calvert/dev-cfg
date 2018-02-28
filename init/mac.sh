@@ -69,6 +69,9 @@ brew cleanup
 # Evernote
 mas install 406056744
 
+# TheUnarchiver
+mas install 425424353
+
 # show all filename extensions in Finder by default
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
