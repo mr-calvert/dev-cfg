@@ -2,6 +2,12 @@
 	email = scalvert@splunk.com
 [alias]
 	personalprofile = config user.email \"scalvert@onepost.net\"
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = 'reset HEAD --'
+	last = 'log -l HEAD'
 [color]
 	branch = auto
 	diff = auto
