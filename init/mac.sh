@@ -61,7 +61,7 @@ brew cask install 1password-cli
 brew cask install google-backup-and-sync
 brew cask install vlc
 brew cask install java
-brea cask install slack
+brew cask install slack
 
 brew install mas
 
