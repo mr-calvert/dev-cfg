@@ -59,7 +59,9 @@ brew cask install dropbox
 brew cask install 1password
 brew cask install 1password-cli
 brew cask install google-backup-and-sync
-
+brew cask install vlc
+brew cask install java
+brea cask install slack
 
 brew install mas
 
