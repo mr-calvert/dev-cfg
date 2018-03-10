@@ -54,7 +54,9 @@ brew cask install iterm2
 brew cask install macvim
 brew cask install spotify
 brew cask install gitter
-brew cask install google-chrome
+if [ ! -e "/Applications/Google Chrome.app" ]; then
+  brew cask install google-chrome
+fi
 brew cask install docker
 brew cask install dropbox
 brew cask install 1password
