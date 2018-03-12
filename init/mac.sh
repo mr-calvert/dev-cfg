@@ -47,6 +47,7 @@ brew install unzip
 brew install vim --override-system-vi
 brew install zsh
 brew install bash-completion
+brew install postgresql
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
