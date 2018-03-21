@@ -4,3 +4,4 @@ set -o vi
 if [ -f ~/.git_prompt ]; then
   source ~/.git_prompt
 fi
+PATH=/usr/local/opt/python/libexec/bin:$PATH
