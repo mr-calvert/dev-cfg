@@ -68,6 +68,7 @@ brew cask install vlc
 brew cask install java
 brew cask install slack
 brew cask install intellij-idea
+brew cask install codeship/taps/jet
 
 brew install mas
 
