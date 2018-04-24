@@ -10,6 +10,7 @@ fi
 
 brew update
 brew tap caskroom/cask
+brew tap caskroom/versions
 
 brew install coreutils
 brew install binutils
@@ -67,6 +68,7 @@ brew cask install 1password-cli
 brew cask install google-backup-and-sync
 brew cask install vlc
 brew cask install java
+brew cash install java8
 brew cask install slack
 brew cask install intellij-idea
 brew cask install codeship/taps/jet
