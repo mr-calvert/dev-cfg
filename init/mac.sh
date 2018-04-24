@@ -38,6 +38,7 @@ brew install nano
 
 brew install file-formula
 brew install git
+brew link git
 # disable -- brew version requires extra setup to get key agent working: brew install openssh
 brew install perl
 brew install python
