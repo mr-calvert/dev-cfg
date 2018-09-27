@@ -119,4 +119,7 @@ defaults write com.apple.finder EmptyTrashSecurely -bool true
 # stop hiding the ~/Library folder
 chflags nohidden ~/Library
 
+# AWS command line interface
+pip install awscli --upgrade --user
+
 echo "Restart the machine after all this!"
