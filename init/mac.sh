@@ -57,33 +57,32 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install iterm2
 brew cask install macvim
-brew cask install spotify
+# disable -- installed already the normal way brew cask install spotify
 brew cask install gitter
 if [ ! -e "/Applications/Google Chrome.app" ]; then
   brew cask install google-chrome
 fi
 brew cask install docker
-brew cask install dropbox
-brew cask install 1password
-brew cask install 1password-cli
-brew cask install google-backup-and-sync
-brew cask install vlc
+# disable -- now on 1 password account brew cask install dropbox
+# disable -- installed normally brew cask install 1password
+# brew cask install 1password-cli
+# brew cask install google-backup-and-sync
+# brew cask install vlc
 brew cask install java
 brew cask install java8
-brew cask install slack
-brew cask install intellij-idea
-brew cask install codeship/taps/jet
+# brew cask install slack
+# brew cask install intellij-idea
 
-brew install mas
+# brew install mas
 
 brew cask cleanup
 brew cleanup
 
 # Evernote
-mas install 406056744
+# mas install 406056744
 
 # TheUnarchiver
-mas install 425424353
+# mas install 425424353
 
 # show all filename extensions in Finder by default
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
