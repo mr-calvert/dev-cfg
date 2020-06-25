@@ -9,8 +9,8 @@ if test ! $(which brew); then
 fi
 
 brew update
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask-cask
+brew tap homebrew/cask-versions
 
 brew install coreutils
 brew install binutils
@@ -58,7 +58,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install iterm2
 brew cask install macvim
 # disable -- installed already the normal way brew cask install spotify
-brew cask install gitter
 if [ ! -e "/Applications/Google Chrome.app" ]; then
   brew cask install google-chrome
 fi
