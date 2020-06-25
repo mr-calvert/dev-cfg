@@ -9,7 +9,6 @@ if test ! $(which brew); then
 fi
 
 brew update
-brew tap homebrew/cask-cask
 brew tap homebrew/cask-versions
 
 brew install coreutils
@@ -68,7 +67,7 @@ brew cask install docker
 # brew cask install google-backup-and-sync
 # brew cask install vlc
 brew cask install java
-brew cask install java8
+brew cask install adoptopenjdk8
 # brew cask install slack
 # brew cask install intellij-idea
 
