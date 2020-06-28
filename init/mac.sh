@@ -51,6 +51,7 @@ brew install zsh
 brew install bash-completion
 brew install postgresql
 brew services start postgresql
+brew install kubectl
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
