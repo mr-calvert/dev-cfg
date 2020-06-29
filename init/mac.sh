@@ -64,6 +64,8 @@ curl -o /usr/local/bin/okta-kube-token \
 mkdir -p ~/.kube
 curl -o ~/.kube/config https://k8s-infra-downloads.splunk8s.io/downloads/v1/kubeconfig
 
+curl -o ~/scp_sudo.sh https://cd.splunkdev.com/cpride/scripts/blob/master/scp-sudo.sh
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install iterm2
