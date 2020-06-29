@@ -56,6 +56,14 @@ brew install postgresql
 brew services start postgresql
 brew install kubectl
 
+# setup CYCLOPS access
+curl -o /usr/local/bin/okta-kube-token \
+    https://repo.splunk.com/artifactory/okta-tools/okta-cli/stable/darwin/okta-kube-token \
+    && chmod +x /usr/local/bin/okta-kube-token
+    
+mkdir -p ~/.kube
+curl -o ~/.kube/config https://k8s-infra-downloads.splunk8s.io/downloads/v1/kubeconfig
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install iterm2
