@@ -67,6 +67,9 @@ curl -o ~/.kube/config https://k8s-infra-downloads.splunk8s.io/downloads/v1/kube
 curl -o ~/scp_sudo.sh https://cd.splunkdev.com/cpride/scripts/blob/master/scp-sudo.sh
 chmod a+x ~/scp-sudo.sh
 
+brew tap splunk/tap
+brew install scloud
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install iterm2
