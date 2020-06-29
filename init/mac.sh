@@ -28,6 +28,10 @@ brew install wdiff --with-gettext
 brew install wget
 
 brew install bash
+if [ `grep $(command -v bash) /etc/shells | wc -l` -eq 0 ]; then
+  sudo bash -c 'echo "$(command -v bash)" >> /etc/shells'
+  chsh -s $(command -v bash)
+fi
 brew install emacs
 #brew install gdb
 brew install gpatch
