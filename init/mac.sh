@@ -51,7 +51,6 @@ brew install rsync
 brew install svn
 brew install unzip
 brew install vim --override-system-vi
-brew install zsh
 brew install bash-completion@2
 brew install postgresql
 brew services start postgresql
