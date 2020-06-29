@@ -9,3 +9,4 @@ PATH=/usr/local/opt/python/libexec/bin:$PATH
 alias kprod="kubectl config use-context prod1.prod.us-west-2.splunk8s.io"
 alias kstage="kubectl config use-context stage1.stage.us-west-2.splunk8s.io"
 alias kplay="kubectl config use-context play1.dev.us-west-2.splunk8s.io"
+alias kcat="kubectl -n catalog"
