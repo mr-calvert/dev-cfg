@@ -84,7 +84,6 @@ brew cask install docker
 # brew cask install 1password-cli
 # brew cask install google-backup-and-sync
 # brew cask install vlc
-brew cask install java
 brew cask install adoptopenjdk8
 # brew cask install slack
 # brew cask install intellij-idea
